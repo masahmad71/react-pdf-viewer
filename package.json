@@ -1,6 +1,6 @@
 {
     "name": "@react-pdf-viewer/core",
-    "version": "2.0.0",
+    "version": "2.1.1",
     "description": "A React component to view a PDF document",
     "license": "https://react-pdf-viewer.dev/license",
     "author": {
@@ -24,13 +24,13 @@
     "bugs": {
         "url": "https://github.com/phuoc-ng/react-pdf-viewer/issues"
     },
-    "main": "npm/index.js",
-    "types": "npm/index.d.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "files": [
-        "npm/styles.css",
-        "npm/cjs/*.js",
-        "npm/index.d.ts",
-        "npm/index.js"
+        "dist/styles.css",
+        "dist/cjs/*.js",
+        "dist/index.d.ts",
+        "dist/index.js"
     ],
     "scripts": {
         "clean": "rm -rf npm && mkdir npm",
