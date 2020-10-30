@@ -1,19 +1,15 @@
 {
     "compilerOptions": {
-        "rootDir": "./src",
-        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
         "isolatedModules": true,
-        "target": "esnext",
-        "module": "commonjs",
-        "strict": true,
         "jsx": "react",
-        "lib": ["dom", "es2015"],
+        "module": "es6",
+        "moduleResolution": "node",
+        "removeComments": true,
         "resolveJsonModule": true,
-        "baseUrl": "."
+        "target": "es5"
     },
     "exclude": [
-        "demo",
-        "dist",
         "node_modules"
     ]
 }

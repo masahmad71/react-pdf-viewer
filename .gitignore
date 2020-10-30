@@ -1,5 +1,3 @@
-dist/cjs/*
-dist/umd/*
-dist/package-lock.json
-dist/README.md
+lerna-debug.log
 node_modules
+package-lock.json
